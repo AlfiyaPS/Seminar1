@@ -19,7 +19,7 @@ with open('tokenizer.pkl', 'rb') as tokenizer_file:
     tokenizer = pickle.load(tokenizer_file)
 
 # Set custom web page title
-st.set_page_config(page_title="Caption Generator App", page_icon="📷")
+st.set_page_config(page_title="Caption Generation ", page_icon="📷")
 
 # Streamlit app
 st.title("Image Caption Generator")
